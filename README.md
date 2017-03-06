@@ -12,3 +12,6 @@ In addition to the straightforward bag of words representation, I also used the 
 * [Part 2: Bag of Words](https://github.com/chao-ji/movie_review/blob/master/Part%202%20Bag%20of%20Words.ipynb)
 * [Part 3: Word2Vec](https://github.com/chao-ji/movie_review/blob/master/Part%203%20Word2Vec.ipynb)
 * [Part 4: Doc2Vec](https://github.com/chao-ji/movie_review/blob/master/Part%204%20Doc2Vec.ipynb)
+
+
+I also also tried pyLDAvis, a powerful tool for visualizing topic models: http://nbviewer.jupyter.org/github/chao-ji/movie_review/blob/master/Topic%20Model%20Viz%20Toy%20Example.ipynb
