@@ -1,5 +1,7 @@
 # movie_review
 
+![doc2vec](https://github.com/chao-ji/movie_review/blob/master/doc2vec_pca.png)
+
 This dataset is from kaggle: kaggle.com/c/word2vec-nlp-tutorial
 
 In this project we want to predict the sentiment (recommended or not) of movie reviews from IMDB. We need to extract features directly from the raw text of reviews. 
