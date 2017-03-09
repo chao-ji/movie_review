@@ -5,9 +5,9 @@
 
 This dataset is from kaggle: kaggle.com/c/word2vec-nlp-tutorial
 
-This is a **real world** dataset that contains 25000 movie reviews from IMDB with highly polarized sentiment, together with 50000 unlabeld movie reviews. Th goal is to predict the sentiment of movie reviews based on features extracted from text of review.
+This is a **real world** dataset that contains 25000 movie reviews from IMDB with highly polarized sentiment, together with 50000 unlabeled movie reviews. Th goal is to predict the sentiment class (positive or negative) of movie reviews based on features extracted from the text.
 
-In this project, I applied a wide range of techniques for feature extraction and feature engineering (bag of words, word and document embedding), in the supervised (binary document classification) and unsupervised (clustering, topic modeling) machine learning tasks. I end up with a few novel surprising or unsurprising discoveries: extremely long or short reviews tend to be more positive than medium-length reviews; the topic composition of all reviews have a similar structure (general terms and specific terms).  
+In this work, I applied a wide range of techniques for feature extraction and feature engineering (e.g. bag of words, word and document embedding, LSA), in the supervised (binary document classification) and unsupervised (clustering, topic modeling) machine learning tasks. I end up with a few novel discoveries (some are surprising while some are expected): extremely long or short reviews tend to be more positive than medium-length reviews; the topic composition of all reviews have a similar structure (general terms and specific terms).  
 
 * [Part 1: Data Preparation](https://github.com/chao-ji/movie_review/blob/master/Part%201%20Data%20Preparation.ipynb)
 * [Part 2: Bag of Words](https://github.com/chao-ji/movie_review/blob/master/Part%202%20Bag%20of%20Words.ipynb)
