@@ -1,6 +1,6 @@
 # movie_review
 
-![wordcloud](https://github.com/chao-ji/movie_review/blob/master/cluster.png)
+![wordcloud](https://github.com/chao-ji/movie_review/blob/master/wordcloud.png)
 ![cluster](https://github.com/chao-ji/movie_review/blob/master/cluster.png)
 
 This dataset is from kaggle: kaggle.com/c/word2vec-nlp-tutorial
