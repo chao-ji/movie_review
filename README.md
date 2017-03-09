@@ -1,19 +1,16 @@
 # movie_review
 
-![doc2vec](https://github.com/chao-ji/movie_review/blob/master/doc2vec_pca.png)
+![wordcloud](https://github.com/chao-ji/movie_review/blob/master/cluster.png)
+![cluster](https://github.com/chao-ji/movie_review/blob/master/cluster.png)
 
 This dataset is from kaggle: kaggle.com/c/word2vec-nlp-tutorial
 
-In this project we want to predict the sentiment (recommended or not) of movie reviews from IMDB. We need to extract features directly from the raw text of reviews. 
+This is a **real world** dataset that contains 25000 movie reviews from IMDB with highly polarized sentiment, together with 50000 unlabeld movie reviews. Th goal is to predict the sentiment of movie reviews based on features extracted from text of review.
 
-I found some interesting trend that probably nobody else has discovered: Extremely long and extremely short reviews tend to be more positive and medium length reviews.
-
-In addition to the straightforward bag of words representation, I also used the word embedding and document embedding. The document embedding appeared to be slightly better in the binary classification task in terms of classification accuracy.
+In this project, I applied a wide range of techniques for feature extraction and feature engineering (bag of words, word and document embedding), in the supervised (binary document classification) and unsupervised (clustering, topic modeling) machine learning tasks. I end up with a few novel surprising or unsurprising discoveries: extremely long or short reviews tend to be more positive than medium-length reviews; the topic composition of all reviews have a similar structure (general terms and specific terms).  
 
 * [Part 1: Data Preparation](https://github.com/chao-ji/movie_review/blob/master/Part%201%20Data%20Preparation.ipynb)
 * [Part 2: Bag of Words](https://github.com/chao-ji/movie_review/blob/master/Part%202%20Bag%20of%20Words.ipynb)
 * [Part 3: Word2Vec](https://github.com/chao-ji/movie_review/blob/master/Part%203%20Word2Vec.ipynb)
 * [Part 4: Doc2Vec](https://github.com/chao-ji/movie_review/blob/master/Part%204%20Doc2Vec.ipynb)
-
-
-I also also tried pyLDAvis, a powerful tool for visualizing topic models: http://nbviewer.jupyter.org/github/chao-ji/movie_review/blob/master/Topic%20Model%20Viz%20Toy%20Example.ipynb
+* [Part 5: Misc (Wordcloud, Clustering, Topic Modeling)](https://github.com/chao-ji/movie_review/blob/master/Part%205%20Misc%20(Wordcloud%2C%20Clustering%2C%20Topic%20Modeling).ipynb)
